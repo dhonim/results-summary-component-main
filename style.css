@@ -1,0 +1,282 @@
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+    --Orangeyyellow: hsl(39, 100%, 56%);
+    --Greenteal: hsl(166, 100%, 37%);
+    --Cobaltblue: hsl(234, 85%, 45%);
+    /* background */
+    --Lightslateblue: hsl(252, 100%, 67%);
+    --Lightroyalblue: hsl(241, 81%, 54%);
+    /* background-circle */
+    --Violetblue: hsla(256, 72%, 46%, 1);
+    --Persianblue: hsla(241, 72%, 46%, 0);
+     
+--White: hsl(0, 0%, 100%);
+--Paleblue: hsl(221, 100%, 96%);
+--Lightlavender: hsl(241, 100%, 89%);
+--Darkgrayblue: hsl(224, 30%, 27%);
+}
+body{
+    font-family:'Hanken Grotesk',sans-serif ;
+}  
+
+/* @media (min-width:375px) { */
+body{
+    font-family:'Hanken Grotesk',sans-serif ;
+   
+
+}
+.container{
+   
+    margin: 0px;
+}
+.leftbox{
+    background: linear-gradient(to bottom,var(--Lightslateblue),var(--Lightroyalblue));
+    width:330px;
+    height: 300px;
+    color: var(--White);
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius:25px ;
+    position: relative;
+    right: 7px;
+    bottom: 15px;
+}
+.leftbox b{
+    font-size:50px;
+   position: relative;
+   top: 15px;
+   left: 25px;
+}
+#count{
+    font-size: 12px;
+}
+.leftbox p{
+    color: var(--Lightlavender);
+    display: flex;
+    justify-content: center;
+}
+.leftbox h3{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    font-size: 16px;
+    padding-top:15px ;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+}
+.circle{
+    background: linear-gradient(var(--Violetblue),var(--Persianblue));
+    border-radius: 50%;
+    width:110px;
+    height:110px;
+    position: relative;
+    left: 110px;
+}
+.circle b{
+    position: relative;
+    left: 28px;
+}
+.rightbox{
+  background: var(--White); 
+  width:100vw;
+  height: 60vh; 
+}
+.rightbox h3{
+   font-size: 1rem;
+   color: var(--Darkgrayblue);
+   position: relative;
+   bottom: 15px;
+   left: 15px;
+  }
+  .reaction{
+    background-color: hsl(0, 42%, 94%);
+    color: var(--Lightred);
+    height: 50px;
+    width: 280px;
+    border-radius: 7px;
+    position: relative;
+    left:15px;
+  }
+  .reaction p{
+   position: relative;
+   left: 50px;
+   top: 14px; 
+  }
+  .memory{
+    background-color:hsl(37, 67%, 91%);
+    color: var(--Orangeyyellow);
+    height: 50px;
+    width: 280px;
+    border-radius: 7px;
+    position: relative;
+    left:15px;
+  }
+  .memory p{
+    position: relative;
+    left: 50px;
+    top: 14px; 
+   }
+  .verbal{
+    background-color: hsl(166, 60%, 93%);
+    color: var(--Greenteal);
+    height: 50px;
+    width: 280px;
+    border-radius: 7px;
+    position: relative;
+    left:15px;
+  }
+  .verbal p{
+    position: relative;
+    left: 50px;
+    top: 14px; 
+   }
+  .visual{
+    background-color: hsl(249, 35%, 92%);
+    color: var(--Cobaltblue);
+    height: 50px;
+    width: 280px;
+    border-radius: 7px;
+    position: relative;
+    left:15px;
+  }
+  .visual p{
+    position: relative;
+    left: 50px;
+    top: 14px; 
+   }
+   .score{
+    position: relative;
+    bottom:23px;
+    left: 215px;
+    color: var(--Lightlavender);
+   }
+   .score b{
+    color: var(--Darkgrayblue);
+   }
+   .design img{
+    position: relative;
+    bottom: 42px;
+    left: 17px;
+   }
+  .design{
+    position: relative;
+    bottom: 15px;
+  }
+  button{
+    background-color: var(--Darkgrayblue);
+    height: 50px;
+    width: 280px;
+    border: 1px solid var(--Darkgrayblue);
+    border-radius: 30px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+    
+    color: var(--White);
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+  button:hover{
+    background: linear-gradient(to bottom,var(--Lightslateblue),var(--Lightroyalblue),var(--Lightroyalblue),var(--Lightroyalblue));
+  }
+/* } */
+
+@media (min-width:1024px) {
+  .container{
+    margin: 50vh 25vw;
+   min-width: 700px;
+    min-height: 800px;
+    display: flex;    
+  }
+ .leftbox{
+ 
+  width: 300px;
+  height: 430px;
+  border-top-left-radius:25px ;
+  border-top-right-radius:25px ;
+  position: relative;
+  top: 1px;
+  left: 40px;
+  
+ 
+ }
+  .rightbox{
+ 
+  width: 350px;
+  height: 430px;
+  
+  border-top-left-radius:25px ;
+  border-top-right-radius:25px ;
+  border-bottom-left-radius:25px ;
+  border-bottom-right-radius:25px ;
+  box-shadow: 0px 10px 20px 0px rgb(194, 244, 245) ;
+ 
+  position: static;
+  
+
+ 
+  }
+  .design div{
+    width: 250px;
+  }
+  .rightbox h3{
+    position: relative;
+    left: 40px;
+  }
+  .design{
+    position: relative;
+    left: 55px;
+    top: 20px;
+  }
+ .score{
+  position: relative;
+   left: 180px;
+ }
+ .rightbox button{
+  position: relative;
+  left: 65px;
+  top: 50px;
+  width: 260px;
+ }
+ .rightbox h3{
+  position: relative;
+  left: 70px;
+  top: 10px;
+ }
+ .circle{
+  background: linear-gradient(var(--Violetblue),var(--Persianblue));
+  border-radius: 50%;
+  width:150px;
+  height:150px;
+  position: relative;
+  left: 75px;
+  top: 20px;
+}
+.circle b{
+  font-size: 65px;
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+#count{
+  margin-top: 20px;
+  font-size: 15px;
+}
+.leftbox h3{
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+}
+#content{
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+}
+}
+

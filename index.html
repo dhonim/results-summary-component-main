@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+ <!-- font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <!-- leftbox -->
+  <div class="leftbox">
+    <p class="header"> Your Result</p>
+    <div class="circle">
+      <b> 76</b>
+     <p id="count"> of 100</p>
+    </div>
+     <h3>Great</h3>
+    <p id="content"> You scored higher than 65% of the <br> people who have taken these tests.</p>
+  </div>
+
+  
+  <!-- Rightbox -->
+  <div class="rightbox">
+   <h3> Summary</h3>
+   <div class="design">
+      <div class="reaction">
+       
+        <p>Reaction </p>
+        <div class="score"><b>80 </b>/100</div>
+        <img src="assets/images/icon-reaction.svg" alt="reaction">
+       </div>
+      <div class="memory">
+       <p>Memory</p>
+       <div class="score"><b>92 </b>/100</div>
+       <img src="assets/images/icon-memory.svg" alt="memory">
+      </div>
+      <div class="verbal">
+       <p>Verbal</p>
+       <div class="score"><b>61</b> /100</div>
+       <img src="assets/images/icon-verbal.svg" alt="verbal">
+       </div>
+      <div class="visual">
+       <p>Visual</p>
+       <div class="score"><b>72</b> /100</div>
+       <img src="assets/images/icon-visual.svg" alt="visual">
+      </div>
+   </div>
+   
+   <button>Continue</button>
+  </div>
+
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sanjeev</a>.
+  </div>
+</body>
+</html>
